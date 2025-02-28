@@ -3,3 +3,6 @@
 .max-contain {
   @apply mx-auto max-w-screen-xl;
 }
+section {
+  padding: 120px 0px;
+}

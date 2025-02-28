@@ -3,18 +3,26 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 
 import "swiper/css";
+import { Autoplay } from "swiper/modules";
 
 export const SwiperDemos = () => {
   return (
-    <Swiper className="mySwiper h-dvh">
+    <Swiper modules={[Autoplay]} autoplay className="mySwiper h-dvh">
       <SwiperSlide className="relative">
         <div className="absolute right-8 bottom-6 z-10 text-white text-2xl font-bold">
           1/3
         </div>
         <div className="absolute z-10 w-full top-1/2 -translate-y-1/2">
           <div className="max-contain flex flex-row items-center justify-between">
-            <div className="flex-1 text-[60px] text-white">
-              Hayal Gücü ve Gerçeğin Buluştuğu Yer!{" "}
+            <div className="flex-1 text-[60px] text-white relative">
+              Hayal Gücü ve Gerçeğin Buluştuğu Yer!
+              <Image
+                src="/square.png"
+                alt="bg-icon"
+                width={280}
+                height={280}
+                className="absolute -left-12 -top-12"
+              />
             </div>
             <div className="flex justify-end border-5 border-red-500 bg-black/30 p-3">
               <Image src="/1.webp" width={500} height={800} alt="Slider" />
