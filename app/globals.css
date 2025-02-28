@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.max-contain {
+  @apply mx-auto max-w-screen-xl;
+}
