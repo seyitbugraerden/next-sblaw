@@ -7,14 +7,14 @@ export const AboutUs = () => {
   return (
     <section className="flex items-center justify-between gap-12 max-contain">
       <div className="flex-1">
-        <h2 className="relative text-3xl my-6 font-bold">
+        <h2 className="relative text-3xl my-6 font-semibold ps-6">
           Hakkımızda
           <Image
             src="/square.png"
             alt="bg-icon"
-            width={30}
-            height={30}
-            className="absolute top-[5px] -left-2 scale-150"
+            width={60}
+            height={60}
+            className="absolute -top-[12px] left-0"
           />
         </h2>
         <p className="font-thin text-justify">

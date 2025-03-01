@@ -11,15 +11,19 @@ const Header = () => {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <Image
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8"
+            src="/logo_white.png"
             alt="Flowbite Logo"
-            width={24}
+            width={60}
             height={60}
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap ">
-            Flowbite
-          </span>
+          <div className="flex flex-col items-start">
+            <span className="self-start text-2xl font-semibold whitespace-nowrap ">
+              Sümeyye Başer
+            </span>
+            <span className="self-start text-sm font-semibold whitespace-nowrap ">
+              Hukuk Danışmanlık Arabuluculuk
+            </span>
+          </div>
         </Link>
         <button
           data-collapse-toggle="navbar-dropdown"
@@ -46,7 +50,7 @@ const Header = () => {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-          <ul className="flex flex-col md:flex-row  gap-8 items-center font-semibold">
+          <ul className="flex flex-col md:flex-row gap-6 text-sm items-center font-medium">
             <li>
               <Link
                 href="/"
