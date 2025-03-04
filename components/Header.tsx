@@ -150,7 +150,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/iletisim"
                 className="block py-2 px-3 rounded-sm md:border-0 bg-red-500"
               >
                 İletişim
