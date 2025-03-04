@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <>
       <footer className="bg-black/90 py-[60px] text-white">
-        <div className="max-contain flex items-start justify-between gap-12">
+        <div className="max-contain flex items-start flex-col lg:flex-row lg:justify-between gap-12">
           <div className="flex-1">
             <Link
               href="#"
@@ -175,7 +175,7 @@ export const Footer = () => {
         </div>
       </footer>{" "}
       <div className="bg-black text-white text-[10px]">
-        <div className="max-contain flex justify-between items-center py-4">
+        <div className="max-contain flex flex-col gap-3 lg:flex-row lg:justify-between items-center py-4">
           <div className="flex-1">
             Copyright © 2025 Sümeyye Başer. Tüm Hakları Saklıdır.
           </div>

@@ -1,10 +1,12 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="absolute top-6 left-0 z-50 w-full text-white">
+    <nav className="absolute top-2 left-0 z-50 w-full text-white">
       <div className="max-contain flex flex-wrap items-center justify-between p-4">
         <Link
           href="#"
@@ -62,22 +64,25 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/hakkimizda"
                 className="block py-2 px-3rounded-sm md:p-0"
                 aria-current="page"
               >
                 Hakkımızda
               </Link>
             </li>
-            <li>
+            <li className="relative">
               <button
-                id="dropdownNavbarLink"
-                data-dropdown-toggle="dropdownNavbar"
-                className="flex items-center justify-between w-full py-2 px-3 rounded-sm  md:border-0 md:p-0 md:w-auto"
+                onClick={() => {
+                  setIsOpen(!isOpen);
+                }}
+                className="flex items-center justify-between w-full py-2 px-3 rounded-sm  md:border-0 md:p-0 md:w-auto group cursor-pointer"
               >
                 Faaliyet Alanlarımız
                 <svg
-                  className="w-2.5 h-2.5 ms-2.5"
+                  className={`w-2.5 h-2.5 ms-2.5 ${
+                    isOpen && "rotate-180"
+                  } duration-300`}
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -92,36 +97,39 @@ const Header = () => {
                   />
                 </svg>
               </button>
-              <div
-                id="dropdownNavbar"
-                className="z-10 hidden font-normal divide-y divide-gray-100 rounded-lg shadow-sm w-44 "
-              >
-                <ul
-                  className="py-2 text-sm"
-                  aria-labelledby="dropdownLargeButton"
-                >
-                  <li>
-                    <a href="#" className="block px-4 py-2">
-                      Dashboard
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="block px-4 py-2 ">
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="block px-4 py-2 ">
-                      Earnings
-                    </a>
-                  </li>
-                </ul>
-                <div className="py-1">
-                  <a href="#" className="block px-4 py-2 text-sm ">
-                    Sign out
-                  </a>
+              {isOpen && (
+                <div className="z-10 font-normal divide-y divide-gray-100 rounded-lg shadow-sm w-44 absolute bg-white text-black mt-4">
+                  <ul
+                    className="py-2 text-sm"
+                    aria-labelledby="dropdownLargeButton"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                        className="block px-4 py-2 hover:bg-red-900 hover:text-white"
+                      >
+                        Dashboard
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="block px-4 py-2 hover:bg-red-900 hover:text-white"
+                      >
+                        Dashboard
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="block px-4 py-2 hover:bg-red-900 hover:text-white"
+                      >
+                        Dashboard
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-              </div>
+              )}
             </li>
             <li>
               <Link

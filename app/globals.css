@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .max-contain {
-  @apply mx-auto max-w-screen-xl;
+  @apply mx-auto xl:max-w-screen-xl max-w-[90%];
 }
 section {
   padding: 60px 0px;
@@ -58,4 +58,19 @@ section {
   to {
     transform: translateX(0);
   }
+}
+
+.clip {
+  clip-path: polygon(68% -15%, 0% 100%, 100% 100%);
+  width: 120%;
+  height: 300px;
+}
+
+.bg-try {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://picsum.photos/1920/500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
