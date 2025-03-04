@@ -1,10 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { GiClawHammer } from "react-icons/gi";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
-export const CardService = () => {
+export const BlogCardService = () => {
   return (
     <div className="bg-white">
       <Image
@@ -12,13 +11,13 @@ export const CardService = () => {
         width={1920}
         height={800}
         alt="Slider"
-        className="w-full h-[200px] object-cover"
+        className="w-full h-[220px] object-cover"
       />
       <div className="p-3 relative pt-6 pb-8">
-        <div className="bg-red-500 inline-block p-2 absolute -top-3 left-2.5 text-white">
-          <GiClawHammer />
+        <div className="bg-red-500 inline-block px-2 py-1 absolute -top-3 left-0 text-white text-xs">
+          İcra Hukuku
         </div>
-        <h3 className="text-2xl font-bold mb-2">Mimarlık</h3>
+        <h3 className="text-2xl font-bold mb-2">Yazı Başlığı</h3>
         <p className="text-sm font-thin text-justify">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores odit fuga esse reiciendis eveniet? Minima recusandae ex atque labore repellendus.
         </p>

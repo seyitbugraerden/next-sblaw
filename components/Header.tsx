@@ -21,7 +21,7 @@ const Header = () => {
               Sümeyye Başer
             </span>
             <span className="self-start text-sm font-semibold whitespace-nowrap ">
-              Hukuk Danışmanlık Arabuluculuk
+              Hukuk Danışmanlık & Arabuluculuk
             </span>
           </div>
         </Link>
