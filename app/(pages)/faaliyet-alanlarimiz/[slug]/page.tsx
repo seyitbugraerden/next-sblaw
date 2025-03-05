@@ -1,7 +1,17 @@
-import React from "react";
+import { Banner } from "@/components/ui/banner";
+import { transformData } from "@/hooks/use-transform";
 
-const page = () => {
-  return <div>page</div>;
-};
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const lastData = await transformData(slug);
 
-export default page;
+  return (
+    <>
+      <Banner text={lastData} />
+    </>
+  );
+}
