@@ -14,7 +14,7 @@ export default async function Page({
       <Banner text={lastData} />
       <section className="max-contain flex gap-24">
         <div className="">
-          <div className="sticky top-12">
+          <div className="sticky top-36">
             <h3 className="text-3xl font-semibold">Faaliyet Alanları</h3>
             <ul className="mt-3">
               <li>Lorem, ipsum.</li>

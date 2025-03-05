@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="absolute top-2 left-0 z-50 w-full text-white">
+    <nav className="sticky top-0 left-0 z-50 w-full text-white bg-red-900">
       <div className="max-contain flex flex-wrap items-center justify-between p-4">
         <Link
           href="#"
