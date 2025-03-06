@@ -133,7 +133,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/hesaplama-araclari"
                 className="block py-2 px-3rounded-sm md:p-0"
                 aria-current="page"
               >

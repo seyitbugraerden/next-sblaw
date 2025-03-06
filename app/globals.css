@@ -61,9 +61,14 @@ section {
 }
 
 .clip {
-  clip-path: polygon(68% -15%, 0% 100%, 100% 100%);
+  clip-path: polygon(20% 35%, 0% 100%, 40% 100%);
+  width: 160%;
+  height: 120px;
+}
+.clip_sec {
+  clip-path: polygon(20% 35%, 0% 100%, 40% 100%);
   width: 120%;
-  height: 300px;
+  height: 30px;
 }
 
 .bg-try {
