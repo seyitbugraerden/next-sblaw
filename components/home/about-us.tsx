@@ -5,18 +5,20 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 export const AboutUs = () => {
   return (
-    <section className="flex items-center justify-between gap-12 max-contain">
+    <section className="flex flex-col lg:flex-row items-center justify-between gap-12 max-contain">
       <div className="flex-1">
-        <h2 className="relative text-2xl my-6 font-semibold ps-6 uppercase">
-          Hakkımızda
-          <Image
-            src="/square.png"
-            alt="bg-icon"
-            width={50}
-            height={50}
-            className="absolute -top-[8px] left-0"
-          />
-        </h2>
+        <div className="flex justify-center items-center lg:justify-start items-start">
+          <h2 className="relative text-2xl my-6 font-semibold ps-6 uppercase">
+            Hakkımızda
+            <Image
+              src="/square.png"
+              alt="bg-icon"
+              width={50}
+              height={50}
+              className="absolute -top-[8px] left-0"
+            />
+          </h2>
+        </div>
         <h3 className="text-4xl font-bold mb-6">Lorem ipsum dolor sit.</h3>
         <p className="font-thin text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, enim

@@ -36,8 +36,11 @@ section {
   background-size: cover;
   background-attachment: fixed;
 }
-
+.swiper-slide .left {
+  opacity: 0;
+}
 .swiper-slide-active .left {
+  opacity: 100;
   animation: slideRight 3s;
 }
 .swiper-slide-active .right {

@@ -35,103 +35,105 @@ export const Footer = () => {
               Excepturi, reprehenderit.
             </p>
           </div>
-          <div className="flex-1">
-            <h6 className="font-bold mb-3 text-2xl">Başlık</h6>
-            <ul>
-              <li>
-                <Link
-                  href="#"
-                  className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                >
-                  <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                  <span className="group-hover:translate-x-3 duration-300">
-                    Alt Başlık
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                >
-                  <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                  <span className="group-hover:translate-x-3 duration-300">
-                    Alt Başlık
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                >
-                  <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                  <span className="group-hover:translate-x-3 duration-300">
-                    Alt Başlık
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                >
-                  <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                  <span className="group-hover:translate-x-3 duration-300">
-                    Alt Başlık
-                  </span>
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="flex-1">
-            <h6 className="font-bold mb-3 text-2xl">Başlık</h6>
-            <ul>
-              <li>
-                <Link
-                  href="#"
-                  className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                >
-                  <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                  <span className="group-hover:translate-x-3 duration-300">
-                    Alt Başlık
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                >
-                  <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                  <span className="group-hover:translate-x-3 duration-300">
-                    Alt Başlık
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                >
-                  <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                  <span className="group-hover:translate-x-3 duration-300">
-                    Alt Başlık
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                >
-                  <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                  <span className="group-hover:translate-x-3 duration-300">
-                    Alt Başlık
-                  </span>
-                </Link>
-              </li>
-            </ul>
+          <div className="flex-1 flex flex-row justify-between w-full">
+            <div className="flex-1">
+              <h6 className="font-bold mb-3 text-2xl">Başlık</h6>
+              <ul>
+                <li>
+                  <Link
+                    href="#"
+                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
+                  >
+                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
+                    <span className="group-hover:translate-x-3 duration-300">
+                      Alt Başlık
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
+                  >
+                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
+                    <span className="group-hover:translate-x-3 duration-300">
+                      Alt Başlık
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
+                  >
+                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
+                    <span className="group-hover:translate-x-3 duration-300">
+                      Alt Başlık
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
+                  >
+                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
+                    <span className="group-hover:translate-x-3 duration-300">
+                      Alt Başlık
+                    </span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="flex-1">
+              <h6 className="font-bold mb-3 text-2xl">Başlık</h6>
+              <ul>
+                <li>
+                  <Link
+                    href="#"
+                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
+                  >
+                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
+                    <span className="group-hover:translate-x-3 duration-300">
+                      Alt Başlık
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
+                  >
+                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
+                    <span className="group-hover:translate-x-3 duration-300">
+                      Alt Başlık
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
+                  >
+                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
+                    <span className="group-hover:translate-x-3 duration-300">
+                      Alt Başlık
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
+                  >
+                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
+                    <span className="group-hover:translate-x-3 duration-300">
+                      Alt Başlık
+                    </span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="flex-1">
             <h6 className="font-bold mb-3 text-2xl">İletişim</h6>
