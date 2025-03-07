@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .max-contain {
-  @apply mx-auto xl:max-w-screen-xl max-w-[90%];
+  @apply mx-auto xl:max-w-screen-xl max-w-[95%];
 }
 section {
   padding: 60px 0px;
@@ -81,4 +81,9 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+header a,
+button {
+  text-wrap: nowrap;
+  white-space: nowrap;
 }

@@ -6,7 +6,7 @@ export const Vision = () => {
   return (
     <section className="bg-[#f5f5f5]">
       <div className="max-contain">
-        <div className="flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           <h2 className="relative text-2xl my-6 font-semibold ps-6 uppercase">
             BİZ KİMİZ?
             <Image
@@ -18,7 +18,7 @@ export const Vision = () => {
             />
           </h2>
         </div>
-        <div className="flex justify-evenly items-stretch gap-24 mt-6 lg:px-12">
+        <div className="flex flex-col lg:flex-row justify-evenly items-center lg:items-stretch gap-24 mt-6 lg:px-12 mx-12">
           <VisionCard
             baslik="Misyonumuz"
             text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore officiis, totam eum voluptatem expedita praesentium non quod at alias!"

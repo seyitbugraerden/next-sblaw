@@ -5,7 +5,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 export const AboutUs = () => {
   return (
-    <section className="flex items-center justify-between gap-12 max-contain">
+    <section className="flex flex-col lg:flex-row items-center justify-between gap-12 max-contain">
       <div className="flex-1">
         <h3 className="text-4xl font-bold mb-6">Lorem ipsum dolor sit.</h3>
         <p className="font-thin text-justify">
