@@ -12,7 +12,7 @@ export const SwiperDemos = () => {
         delay: 8000,
       }}
       modules={[Autoplay]}
-      className="mySwiper h-dvh"
+      className="mySwiper h-[800px] lg:h-[800px]"
     >
       {Array.from({ length: 12 }).map((_, index) => (
         <SwiperSlide key={index} className="relative">
@@ -22,7 +22,7 @@ export const SwiperDemos = () => {
           <div className="absolute top-0 right-0 z-10 text-white text-2xl font-bold h-full w-1/2 bg-black/30 rounded-bl-[50%] right hidden lg:block"></div>
           <div className="absolute z-10 w-full top-1/2 -translate-y-1/2">
             <div className="max-contain flex flex-col lg:flex-row items-center justify-between">
-              <div className="flex-1 text-5xl text-center font-semibold lg:text-start lg:text-[60px] text-white relative left -top-12 lg:-top-24">
+              <div className="flex-1 text-5xl lg:text-[60px] text-center font-semibold lg:text-start  text-white relative left -top-12 lg:-top-24">
                 Hayal Gücü ve Gerçeğin Buluştuğu Yer!
                 <Image
                   src="/square.png"
@@ -33,7 +33,7 @@ export const SwiperDemos = () => {
                 />
               </div>
               <div className="right flex-1">
-                <Image src="/1.webp" width={500} height={800} alt="Slider" />
+                <Image src="/1.webp" width={500} height={800} alt="Slider" className="h-[500px] object-contain lg:h-fit" />
               </div>
             </div>
           </div>

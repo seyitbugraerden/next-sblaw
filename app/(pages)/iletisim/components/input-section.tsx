@@ -3,16 +3,16 @@ import React from "react";
 
 export const InputSection = () => {
   return (
-    <section className="max-contain flex gap-4 !pb-[120px]">
+    <section className="max-contain flex flex-col lg:flex-row gap-4 !pb-[120px]">
       <div className="flex-1 relative">
         <Image
           src="https://picsum.photos/600/500"
           width={450}
           height={450}
           alt="Slider"
-          className="shadow-xl shadow-black/30"
+          className="shadow-xl shadow-black/30 hidden lg:block"
         />
-        <div className="absolute right-8 -bottom-12 flex flex-col w-72 text-xs bg-black/80 text-white py-[10%] px-[5%] gap-8">
+        <div className="lg:absolute right-8 -bottom-12 flex flex-col w-full lg:w-72 text-xs bg-black/80 text-white py-[10%] px-[5%] gap-8">
           <div>
             <h5 className="text-xl font-semibold">Adres</h5>
             <p className="text-xs mt-1">

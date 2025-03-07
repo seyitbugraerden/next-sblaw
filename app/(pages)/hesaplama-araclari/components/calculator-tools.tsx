@@ -18,7 +18,7 @@ export const CalculatorTools = () => {
           />
         </h2>
       </div>
-      <div className="max-contain grid grid-cols-5 gap-x-6 gap-y-6 mt-6">
+      <div className="max-contain grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-6 mt-6">
         {Array.from({ length: 10 }).map((_, index) => (
           <Link
             href="#"

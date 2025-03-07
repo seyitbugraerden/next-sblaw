@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
 .max-contain {
-  @apply mx-auto xl:max-w-screen-xl max-w-[95%];
+  @apply mx-auto 2xl:max-w-screen-xl max-w-[75%];
+}
+
+.max-contain-header {
+  @apply mx-auto 2xl:max-w-screen-xl max-w-[95%];
 }
 section {
   padding: 60px 0px;
