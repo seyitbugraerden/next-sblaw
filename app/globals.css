@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: blue;
+  --color-secondary: red;
+  --color-tertiary: orange;
+}
+
 .max-contain {
   @apply mx-auto 2xl:max-w-screen-xl max-w-[75%];
 }

@@ -9,7 +9,7 @@ const Header = () => {
   const [isDrop, setIsDrop] = useState(false);
   return (
     <header>
-      <nav className="relative lg:sticky top-0 left-0 z-50 w-full text-white bg-red-900">
+      <nav className="relative lg:sticky top-0 left-0 z-50 w-full text-white bg-primary">
         <div className="max-contain-header flex flex-col lg:flex-row flex-nowrap items-center justify-between py-4">
           <div className="flex items-center justify-between w-full">
             <Link

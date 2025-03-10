@@ -23,7 +23,7 @@ export const CalculatorTools = () => {
           <Link
             href="#"
             key={index}
-            className="p-5 flex justify-center items-center flex-col gap-4 shadow-2xl shadow-black/20 rounded-xl border border-red-900/30 hover:bg-red-900 hover:text-white transition duration-300"
+            className="p-5 flex justify-center items-center flex-col gap-4 shadow-2xl shadow-black/20 rounded-xl border border-primary/30 hover:bg-primary hover:text-white transition duration-300"
           >
             <AiFillAlipayCircle />
             Lorem, ipsum.
