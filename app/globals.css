@@ -4,6 +4,7 @@
   --color-primary: blue;
   --color-secondary: red;
   --color-tertiary: orange;
+  --color-hover: #123456;
 }
 
 .max-contain {

@@ -13,7 +13,7 @@ const Header = () => {
         <div className="max-contain-header flex flex-col lg:flex-row flex-nowrap items-center justify-between py-4">
           <div className="flex items-center justify-between w-full">
             <Link
-              href="#"
+              href="/"
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <Image
@@ -94,7 +94,7 @@ const Header = () => {
                       <li>
                         <a
                           href="#"
-                          className="block px-4 py-2 hover:bg-red-900 hover:text-white"
+                          className="block px-4 py-2 hover:bg-hover hover:text-white"
                         >
                           Dashboard
                         </a>
@@ -102,7 +102,7 @@ const Header = () => {
                       <li>
                         <a
                           href="#"
-                          className="block px-4 py-2 hover:bg-red-900 hover:text-white"
+                          className="block px-4 py-2 hover:bg-hover hover:text-white"
                         >
                           Dashboard
                         </a>
@@ -110,7 +110,7 @@ const Header = () => {
                       <li>
                         <a
                           href="#"
-                          className="block px-4 py-2 hover:bg-red-900 hover:text-white"
+                          className="block px-4 py-2 hover:bg-hover hover:text-white"
                         >
                           Dashboard
                         </a>
@@ -139,7 +139,7 @@ const Header = () => {
               <li>
                 <Link
                   href="/iletisim"
-                  className="block py-2 px-3 rounded-sm md:border-0 bg-red-500"
+                  className="block py-2 px-3 rounded-sm md:border-0 bg-secondary"
                 >
                   İletişim
                 </Link>
