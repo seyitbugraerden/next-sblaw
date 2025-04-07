@@ -9,7 +9,7 @@ const Header = () => {
   const [isDrop, setIsDrop] = useState(false);
   return (
     <header>
-      <nav className="relative lg:sticky top-0 left-0 z-50 w-full text-white bg-primary">
+      <nav className="relative lg:sticky top-0 left-0 z-50 w-full bg-white">
         <div className="max-contain-header flex flex-col lg:flex-row flex-nowrap items-center justify-between py-4">
           <div className="flex items-center justify-between w-full">
             <Link
@@ -17,7 +17,7 @@ const Header = () => {
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <Image
-                src="/logo_white.png"
+                src="/logo.png"
                 alt="Flowbite Logo"
                 width={60}
                 height={60}
