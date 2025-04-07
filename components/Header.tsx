@@ -2,14 +2,22 @@
 import Hamburger from "hamburger-react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
   const [isDrop, setIsDrop] = useState(false);
+  const pathname = usePathname();
+
+  const bg__color =
+    pathname === "/" ? "bg-white text-black" : "bg-primary text-white";
+
+  const selected__bg = pathname === "/" ? "/logo.png" : "/logo_white.png";
+  
   return (
-    <header>
-      <nav className="relative lg:sticky top-0 left-0 z-50 w-full bg-white">
+    <header className="sticky top-0 z-[99999]">
+      <nav className={`z-50 w-full ${bg__color}`}>
         <div className="max-contain-header flex flex-col lg:flex-row flex-nowrap items-center justify-between py-4">
           <div className="flex items-center justify-between w-full">
             <Link
@@ -17,7 +25,7 @@ const Header = () => {
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <Image
-                src="/logo.png"
+                src={selected__bg}
                 alt="Flowbite Logo"
                 width={60}
                 height={60}
