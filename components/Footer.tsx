@@ -1,3 +1,4 @@
+import { faaliyetData } from "@/data/faaliyet_alani";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -10,7 +11,7 @@ export const Footer = () => {
     <>
       <footer className="bg-black/90 py-[60px] text-white">
         <div className="max-contain flex items-start flex-col lg:flex-row lg:justify-between gap-12">
-          <div className="flex-1">
+          <div className="lg:flex-[1]">
             <Link
               href="#"
               className="flex items-center space-x-3 rtl:space-x-reverse "
@@ -35,107 +36,32 @@ export const Footer = () => {
               Excepturi, reprehenderit.
             </p>
           </div>
-          <div className="flex-1 flex flex-row justify-between w-full">
+          <div className="lg:flex-[2] flex flex-col lg:flex-row justify-between w-full gap-8">
             <div className="flex-1">
-              <h6 className="font-bold mb-3 text-2xl">Başlık</h6>
-              <ul>
-                <li>
-                  <Link
-                    href="#"
-                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                  >
-                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                    <span className="group-hover:translate-x-3 duration-300">
-                      Alt Başlık
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                  >
-                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                    <span className="group-hover:translate-x-3 duration-300">
-                      Alt Başlık
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                  >
-                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                    <span className="group-hover:translate-x-3 duration-300">
-                      Alt Başlık
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                  >
-                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                    <span className="group-hover:translate-x-3 duration-300">
-                      Alt Başlık
-                    </span>
-                  </Link>
-                </li>
-              </ul>
+              <Link href="/hakkimizda" className="font-bold mb-3 text-2xl">
+                Hakkımızda
+              </Link>
             </div>
             <div className="flex-1">
-              <h6 className="font-bold mb-3 text-2xl">Başlık</h6>
-              <ul>
-                <li>
-                  <Link
-                    href="#"
-                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                  >
-                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                    <span className="group-hover:translate-x-3 duration-300">
-                      Alt Başlık
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                  >
-                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                    <span className="group-hover:translate-x-3 duration-300">
-                      Alt Başlık
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                  >
-                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                    <span className="group-hover:translate-x-3 duration-300">
-                      Alt Başlık
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
-                  >
-                    <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
-                    <span className="group-hover:translate-x-3 duration-300">
-                      Alt Başlık
-                    </span>
-                  </Link>
-                </li>
+              <h6 className="font-bold mb-3 text-2xl">Faaliyet Alanlarımız</h6>
+              <ul className="grid grid-cols-2 gap-1">
+                {faaliyetData.map((x, i) => (
+                  <li key={i}>
+                    <Link
+                      href={x.url}
+                      className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
+                    >
+                      <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
+                      <span className="group-hover:translate-x-3 duration-300">
+                        {x.title}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
-          <div className="flex-1">
+          <div className="lg:flex-1">
             <h6 className="font-bold mb-3 text-2xl">İletişim</h6>
             <ul className="flex flex-col items-start gap-3">
               <li>
