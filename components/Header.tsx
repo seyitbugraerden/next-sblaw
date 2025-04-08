@@ -1,4 +1,5 @@
 "use client";
+import { faaliyetData } from "@/data/faaliyet_alani";
 import Hamburger from "hamburger-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,7 +15,7 @@ const Header = () => {
     pathname === "/" ? "bg-white text-black" : "bg-primary text-white";
 
   const selected__bg = pathname === "/" ? "/logo.png" : "/logo_white.png";
-  
+
   return (
     <header className="sticky top-0 z-[99999]">
       <nav className={`z-50 w-full ${bg__color}`}>
@@ -99,30 +100,16 @@ const Header = () => {
                       className="py-2 text-sm"
                       aria-labelledby="dropdownLargeButton"
                     >
-                      <li>
-                        <a
-                          href="#"
-                          className="block px-4 py-2 hover:bg-hover hover:text-white"
-                        >
-                          Dashboard
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="block px-4 py-2 hover:bg-hover hover:text-white"
-                        >
-                          Dashboard
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="block px-4 py-2 hover:bg-hover hover:text-white"
-                        >
-                          Dashboard
-                        </a>
-                      </li>
+                      {faaliyetData.map((_, i) => (
+                        <li key={i}>
+                          <a
+                            href={_.url}
+                            className="block px-4 py-2 hover:bg-hover hover:text-white"
+                          >
+                            {_.title}
+                          </a>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 )}

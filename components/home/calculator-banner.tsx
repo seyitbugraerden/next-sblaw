@@ -1,9 +1,18 @@
+"use client";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 export const CalculatorBanner = () => {
+  const router = useRouter();
   return (
-    <section id="calculator" className="text-white">
+    <section
+      id="calculator"
+      className="text-white cursor-pointer"
+      onClick={() => {
+        router.push("/hesaplama-araclari");
+      }}
+    >
       <div className="max-contain">
         <div className="flex justify-center">
           <h2 className="relative text-2xl my-6 font-semibold ps-6 uppercase">
@@ -19,16 +28,12 @@ export const CalculatorBanner = () => {
         </div>
         <div className="max-w-4xl mx-auto">
           <p className="text-sm font-light text-center mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            inventore a ratione, porro, consequatur, impedit voluptatibus
-            expedita deserunt commodi quasi deleniti? Animi quia rem ipsum
-            dolores tenetur quasi quibusdam temporibus.
+            Müvekkillerimizin ihtiyaç duyduğu hukuki süreçleri daha şeffaf ve
+            anlaşılır kılmak için geliştirdiğimiz hesaplama araçlarıyla,
+            tazminat, faiz, kıdem-ihbar ve benzeri hesaplamaları kolayca
+            yapabilirsiniz. Sümeyye Başer Danışmanlık & Hukuk Bürosu olarak, her
+            adımda yanınızdayız.
           </p>
-          <div className="flex justify-center mt-5">
-            <div className="border px-3 py-1 text-xs hover:bg-white hover:text-black duration-200 cursor-pointer">
-              İncele
-            </div>
-          </div>
         </div>
       </div>
     </section>

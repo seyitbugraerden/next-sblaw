@@ -7,7 +7,7 @@ export const AboutUs = () => {
   return (
     <section className="flex flex-col lg:flex-row items-center justify-between gap-12 max-contain">
       <div className="flex-1">
-        <div className="flex justify-center items-center lg:justify-start items-start">
+        <div className="flex justify-center items-center lg:justify-start lg:items-start">
           <h2 className="relative text-2xl my-6 font-semibold ps-6 uppercase">
             Hakkımızda
             <Image
@@ -19,26 +19,27 @@ export const AboutUs = () => {
             />
           </h2>
         </div>
-        <h3 className="text-4xl font-bold mb-6">Lorem ipsum dolor sit.</h3>
+        <h3 className="text-4xl font-bold mb-6">
+          Deneyim, Şeffaflık ve Güvenin Buluştuğu Nokta
+        </h3>
         <p className="font-thin text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, enim
-          dolore. Ratione, quo. Officiis obcaecati ex tenetur velit consequuntur
-          nam, atque animi aperiam, consectetur magnam quia. Adipisci asperiores
-          voluptate rem nesciunt temporibus est facere soluta, repudiandae amet
-          vero, sint excepturi non assumenda. Quae ratione architecto voluptatem
-          accusantium nihil necessitatibus at, unde ad ea illo alias aspernatur
-          deserunt consectetur ab praesentium dolorum. A quisquam recusandae
-          quia assumenda beatae eaque maiores eos.
+          Sümeyye Başar Hukuk & Danışmanlık olarak, bireylerin ve kurumların
+          hukuki sorunlarına etkili, şeffaf ve güvenilir çözümler sunuyoruz.
+          Müvekkillerimizin ihtiyaçlarını önceliklendiriyor, her adımda
+          bilgilendirici ve çözüm odaklı bir yaklaşım benimsiyoruz.
+        </p> <br />
+        <p className="font-thin text-justify">
+          Deneyimimiz, etik değerlerimiz ve güncel hukuk bilgimizle adaletin
+          yanında duruyor; haklarınızı en iyi şekilde savunmayı ilke ediniyoruz.
         </p>
         <div className="mt-8">
           <Link
-            href="#"
+            href="/hakkimizda"
             className="inline-flex flex-row gap-2 items-center text-xs group hover:text-red-500"
           >
             <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
             <span className="group-hover:translate-x-3 duration-300">
-              {" "}
-              Daha Fazla{" "}
+              Daha Fazla
             </span>
           </Link>
         </div>

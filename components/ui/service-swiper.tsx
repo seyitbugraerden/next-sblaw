@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { CardService } from "./card-service";
+import { faaliyetData } from "@/data/faaliyet_alani";
 
 export const ServiceSwiperDemo = () => {
   return (
@@ -30,9 +31,9 @@ export const ServiceSwiperDemo = () => {
       }}
       className="mySwiper my-12"
     >
-      {Array.from({ length: 12 }).map((_, index) => (
+      {faaliyetData.map((_, index) => (
         <SwiperSlide key={index}>
-          <CardService />
+          <CardService data={_}/>
         </SwiperSlide>
       ))}
     </Swiper>
