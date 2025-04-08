@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { VisionCard } from "./vision-card";
+import { hakkimizdaData } from "@/data/about_us";
 
 export const Vision = () => {
   return (
@@ -19,17 +20,11 @@ export const Vision = () => {
           </h2>
         </div>
         <div className="flex flex-col lg:flex-row justify-evenly items-center lg:items-stretch gap-24 mt-6 lg:px-12 mx-12">
-          <VisionCard
-            baslik="Misyonumuz"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore officiis, totam eum voluptatem expedita praesentium non quod at alias!"
-          />
-          <VisionCard
-            baslik="Vizyonumuz"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore officiis, totam eum voluptatem expedita praesentium non quod at alias!"
-          />
+          <VisionCard baslik="Misyonumuz" text={hakkimizdaData.misyonumuz} />
+          <VisionCard baslik="Vizyonumuz" text={hakkimizdaData.vizyonumuz} />
           <VisionCard
             baslik="Sürdürebilirlik"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore officiis, totam eum voluptatem expedita praesentium non quod at alias!"
+            text={hakkimizdaData.surdurulebilirlik}
           />
         </div>
       </div>

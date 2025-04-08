@@ -1,9 +1,19 @@
+"use client";
+
+import { faaliyetData } from "@/data/faaliyet_alani";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
-import { IoHomeOutline } from "react-icons/io5";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 export const Banner = ({ text }: BannerProps) => {
+  const routerSearch = usePathname();
+  const splitElement = routerSearch.split("/");
+
+  const selectedFaaliyet = faaliyetData.find((x) =>
+    x.url.includes(splitElement[2])
+  );
+
   return (
     <div className="w-dvw h-[200px] bg-red-900 relative overflow-hidden">
       <div className="bg-white absolute left-1/2 bottom-0 clip"></div>
@@ -15,11 +25,27 @@ export const Banner = ({ text }: BannerProps) => {
         </h1>
 
         <div className="flex w-full justify-end items-center gap-2 mt-auto text-black text-xs font-semibold mb-2 z-10">
-          <Link href="/" className="flex flex-row items-center gap-2">
-            Ana Sayfa <IoHomeOutline />
-          </Link>{" "}
+          <Link
+            href="/"
+            className="flex flex-row items-center gap-2 hover:text-primary duration-300"
+          >
+            Ana Sayfa
+          </Link>
+          {selectedFaaliyet && (
+            <>
+              <MdKeyboardArrowRight size={18} className="translate-y-[1px]" />
+              <p>Faaliyet Alanlarımız </p>
+            </>
+          )}
           <MdKeyboardArrowRight size={18} className="translate-y-[1px]" />
-          <p>Hakkımızda</p>
+          <p>
+            {selectedFaaliyet
+              ? selectedFaaliyet?.title
+              : splitElement[1]
+                  .replace("hakkimizda", "Hakkımızda")
+                  .replace("hesaplama-araclari", "Hesaplama Araçları")
+                  .replace("iletisim", "İletişim")}{" "}
+          </p>
         </div>
       </div>
     </div>
