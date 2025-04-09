@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
+import ImageText from "../ui/image-text";
 
 export const CalculatorBanner = () => {
   const router = useRouter();
@@ -13,18 +14,9 @@ export const CalculatorBanner = () => {
         router.push("/hesaplama-araclari");
       }}
     >
-      <div className="max-contain">
-        <div className="flex justify-center">
-          <h2 className="relative text-2xl my-6 font-semibold ps-6 uppercase">
-            Hesaplama Araçları
-            <Image
-              src="/square.png"
-              alt="bg-icon"
-              width={50}
-              height={50}
-              className="absolute -top-[8px] left-0"
-            />
-          </h2>
+      <div className="max-contain pb-6">
+        <div className="flex justify-center items-center">
+          <ImageText text="Hesaplama Araçları" />
         </div>
         <div className="max-w-4xl mx-auto">
           <p className="text-sm font-light text-center mt-3">

@@ -1,8 +1,6 @@
 export const hakkimizdaData = {
   vizyonumuz:
-    "Çözüm odaklı yaklaşımımız ve teknolojiyi etkin kullanarak, güvenilir ve öncü bir hukuk bürosu olmayı hedefliyoruz.",
+    "Çözüm odaklı yaklaşımımız ve en güncel teknolojileri etkin bir şekilde kullanarak, güvenilirliğiyle öne çıkan ve sektöre yön veren öncü bir hukuk bürosu olmayı hedefliyoruz.",
   misyonumuz:
-    "Etik değerlerle, hızlı ve etkili çözümler sunarak müvekkillerimizin haklarını en güçlü şekilde korumayı amaçlıyoruz.",
-  surdurulebilirlik:
-    "Dijital dönüşüme açık, çevreye duyarlı ve toplumsal faydayı gözeten sürdürülebilir bir hukuk anlayışı benimsiyoruz.",
+    "Etik ilkelere bağlı kalarak, hızlı, etkili ve sürdürülebilir çözümler üretiyor; müvekkillerimizin haklarını kararlılıkla ve en güçlü şekilde savunmayı temel görevimiz olarak görüyoruz.",
 };

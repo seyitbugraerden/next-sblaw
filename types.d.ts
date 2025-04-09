@@ -4,6 +4,7 @@ interface BannerProps {
 interface VisionProps {
   baslik: string;
   text: string;
+  icon: string;
 }
 interface ParamsType {
   params: {

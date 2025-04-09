@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #82181a;
-  --color-secondary: red;
+  --color-primary: #82181A;
+  --color-secondary: #252525;
   --color-tertiary: orange;
   --color-hover: #123456;
 }
@@ -87,7 +87,7 @@ section {
 
 .bg-try {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://picsum.photos/1920/500");
+    url("../public/contact.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,5 +1,6 @@
 "use client";
 
+import { calculateDb } from "@/data/calculate_db";
 import { faaliyetData } from "@/data/faaliyet_alani";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -14,8 +15,12 @@ export const Banner = ({ text }: BannerProps) => {
     x.url.includes(splitElement[2])
   );
 
+  const selectedCalculate = calculateDb.find((x) =>
+    x.href.includes(splitElement[2])
+  );
+
   return (
-    <div className="w-dvw h-[200px] bg-red-900 relative overflow-hidden">
+    <div className="w-dvw h-[200px] bg-primary relative overflow-hidden">
       <div className="bg-white absolute left-1/2 bottom-0 clip"></div>
       <div className="bg-white absolute left-0 bottom-0 clip_sec"></div>
       <div className="max-contain h-full flex flex-col justify-center items-start">
@@ -35,6 +40,12 @@ export const Banner = ({ text }: BannerProps) => {
             <>
               <MdKeyboardArrowRight size={18} className="translate-y-[1px]" />
               <p>Faaliyet Alanlarımız </p>
+            </>
+          )}
+          {selectedCalculate && (
+            <>
+              <MdKeyboardArrowRight size={18} className="translate-y-[1px]" />
+              <p>Hesaplama Araçları </p>
             </>
           )}
           <MdKeyboardArrowRight size={18} className="translate-y-[1px]" />

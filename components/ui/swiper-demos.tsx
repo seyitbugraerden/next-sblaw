@@ -12,6 +12,7 @@ export const SwiperDemos = () => {
       autoplay={{
         delay: 8000,
       }}
+      speed={1000}
       modules={[Autoplay]}
       className="mySwiper h-[800px] lg:h-[800px]"
     >

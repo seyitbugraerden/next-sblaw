@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 
 export const PhotoLand = () => {
@@ -9,16 +10,26 @@ export const PhotoLand = () => {
       <h4 className="font-bold text-md md:text-lg lg:text-2xl text-center">
         BİR UZMANA DANIŞMAK MI İSTİYORSUNUZ?
       </h4>
-      <span className="text-xs md:text-md lg:text-lg">
-        Hemen Arayın : <Link href="#">+90 555 555 55 55</Link>
-      </span>
-      <div className="flex flex-col lg:flex-row items-center gap-4">
-        <div className="flex flex-row text-sm items-center gap-2">
+      <Link
+        href="tel:+905531408302"
+        className="text-xs md:text-md lg:text-lg relative z-[99999] hover:brightness-75"
+      >
+        Hemen Arayın : +90 553 140 83 02
+      </Link>
+      <div className="flex flex-col lg:flex-row items-center gap-4 relative z-[99999]">
+        <Link
+          href="mailto:info@info.com"
+          className="flex flex-row text-sm items-center gap-2 hover:brightness-75"
+        >
           <IoIosMail /> <span>info@info.com</span>
-        </div>
-        <div className="flex flex-row text-sm items-center gap-2">
-          <IoIosMail /> <span>info@info.com</span>
-        </div>
+        </Link>
+
+        <Link
+          href="https://wa.me/+905531408302"
+          className="flex flex-row text-sm items-center gap-2 hover:brightness-75"
+        >
+          <FaWhatsapp /> <span>+90 553 140 83 02</span>
+        </Link>
       </div>
     </div>
   );

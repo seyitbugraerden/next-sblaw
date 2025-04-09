@@ -5,6 +5,7 @@ import "swiper/css";
 
 import { CardService } from "./card-service";
 import { faaliyetData } from "@/data/faaliyet_alani";
+import { Autoplay } from "swiper/modules";
 
 export const ServiceSwiperDemo = () => {
   return (
@@ -29,11 +30,16 @@ export const ServiceSwiperDemo = () => {
           spaceBetween: 30,
         },
       }}
+      modules={[Autoplay]}
+      autoplay={{
+        delay: 8000,
+      }}
+      speed={2000}
       className="mySwiper my-12"
     >
       {faaliyetData.map((_, index) => (
         <SwiperSlide key={index}>
-          <CardService data={_}/>
+          <CardService data={_} />
         </SwiperSlide>
       ))}
     </Swiper>

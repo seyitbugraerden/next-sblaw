@@ -10,6 +10,7 @@ const Header = () => {
   const [isOpen, setOpen] = useState(false);
   const [isDrop, setIsDrop] = useState(false);
   const pathname = usePathname();
+  const isHome = pathname === "/";
 
   const bg__color =
     pathname === "/" ? "bg-white text-black" : "bg-primary text-white";
@@ -53,7 +54,9 @@ const Header = () => {
               <li>
                 <Link
                   href="/"
-                  className="block py-2 px-3rounded-sm md:p-0"
+                  className={`${
+                    isHome ? "hover:text-primary" : "hover:brightness-75"
+                  } block py-2 px-3rounded-sm md:p-0`}
                   aria-current="page"
                 >
                   Ana Sayfa
@@ -62,7 +65,9 @@ const Header = () => {
               <li>
                 <Link
                   href="/hakkimizda"
-                  className="block py-2 px-3rounded-sm md:p-0"
+                  className={`${
+                    isHome ? "hover:text-primary" : "hover:brightness-75"
+                  } block py-2 px-3rounded-sm md:p-0`}
                   aria-current="page"
                 >
                   Hakkımızda
@@ -73,7 +78,9 @@ const Header = () => {
                   onClick={() => {
                     setIsDrop(!isDrop);
                   }}
-                  className="flex items-center justify-between w-full py-2 px-3 rounded-sm  md:border-0 md:p-0 md:w-auto group cursor-pointer"
+                  className={`flex items-center justify-between w-full py-2 px-3 rounded-sm  md:border-0 md:p-0 md:w-auto group cursor-pointer ${
+                    isHome ? "hover:text-primary" : "hover:brightness-75"
+                  }`}
                 >
                   Faaliyet Alanlarımız
                   <svg
@@ -104,7 +111,7 @@ const Header = () => {
                         <li key={i}>
                           <a
                             href={_.url}
-                            className="block px-4 py-2 hover:bg-hover hover:text-white"
+                            className="block px-4 py-2 hover:bg-primary hover:text-white"
                           >
                             {_.title}
                           </a>
@@ -117,7 +124,9 @@ const Header = () => {
               <li>
                 <Link
                   href="/hesaplama-araclari"
-                  className="block py-2 px-3rounded-sm md:p-0"
+                  className={`${
+                    isHome ? "hover:text-primary" : "hover:brightness-75"
+                  } block py-2 px-3rounded-sm md:p-0`}
                   aria-current="page"
                 >
                   Hesaplama Araçları
@@ -126,7 +135,9 @@ const Header = () => {
               <li>
                 <Link
                   href="#"
-                  className="block py-2 px-3 rounded-sm md:border-0 md:p-0 "
+                  className={`${
+                    isHome ? "hover:text-primary" : "hover:brightness-75"
+                  } block py-2 px-3rounded-sm md:p-0`}
                 >
                   Yazılarımız
                 </Link>
@@ -134,7 +145,9 @@ const Header = () => {
               <li>
                 <Link
                   href="/iletisim"
-                  className="block py-2 px-3 rounded-sm md:border-0 bg-secondary"
+                  className={`block py-2 px-3 rounded-sm md:border-0 hover:brightness-75 ${
+                    isHome ? "bg-primary text-white" : "bg-white text-primary "
+                  }`}
                 >
                   İletişim
                 </Link>

@@ -1,3 +1,4 @@
+import { calculateDb } from "@/data/calculate_db";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -19,14 +20,14 @@ export const CalculatorTools = () => {
         </h2>
       </div>
       <div className="max-contain grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-6 mt-6">
-        {Array.from({ length: 10 }).map((_, index) => (
+        {calculateDb.map((_, index) => (
           <Link
-            href="#"
+            href={_.href}
             key={index}
-            className="p-5 flex justify-center items-center flex-col gap-4 shadow-2xl shadow-black/20 rounded-xl border border-primary/30 hover:bg-primary hover:text-white transition duration-300"
+            className="p-5 text-sm text-center flex justify-center items-center flex-col gap-4 shadow-2xl shadow-black/20 rounded-xl border border-primary/30 hover:bg-primary hover:text-white transition duration-300"
           >
             <AiFillAlipayCircle />
-            Lorem, ipsum.
+            {_.title}
           </Link>
         ))}
       </div>

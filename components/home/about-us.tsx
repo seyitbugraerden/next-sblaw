@@ -2,33 +2,24 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
+import ImageText from "../ui/image-text";
 
 export const AboutUs = () => {
   return (
     <section className="flex flex-col lg:flex-row items-center justify-between gap-12 max-contain">
       <div className="flex-1">
-        <div className="flex justify-center items-center lg:justify-start lg:items-start">
-          <h2 className="relative text-2xl my-6 font-semibold ps-6 uppercase">
-            Hakkımızda
-            <Image
-              src="/square.png"
-              alt="bg-icon"
-              width={50}
-              height={50}
-              className="absolute -top-[8px] left-0"
-            />
-          </h2>
-        </div>
-        <h3 className="text-4xl font-bold mb-6">
+        <ImageText text="Hakkımızda" />
+        <h3 className="text-2xl font-bold mb-6">
           Deneyim, Şeffaflık ve Güvenin Buluştuğu Nokta
         </h3>
-        <p className="font-thin text-justify">
+        <p className="font-thin text-justify text-sm">
           Sümeyye Başar Hukuk & Danışmanlık olarak, bireylerin ve kurumların
           hukuki sorunlarına etkili, şeffaf ve güvenilir çözümler sunuyoruz.
           Müvekkillerimizin ihtiyaçlarını önceliklendiriyor, her adımda
           bilgilendirici ve çözüm odaklı bir yaklaşım benimsiyoruz.
-        </p> <br />
-        <p className="font-thin text-justify">
+        </p>{" "}
+        <br />
+        <p className="font-thin text-justify text-sm">
           Deneyimimiz, etik değerlerimiz ve güncel hukuk bilgimizle adaletin
           yanında duruyor; haklarınızı en iyi şekilde savunmayı ilke ediniyoruz.
         </p>
