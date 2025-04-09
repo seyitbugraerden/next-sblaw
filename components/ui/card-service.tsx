@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { BsPersonWorkspace } from "react-icons/bs";
 import { FaMoneyCheckAlt, FaUser } from "react-icons/fa";
-import { GiClawHammer, GiHandcuffed } from "react-icons/gi";
+import { GiHandcuffed } from "react-icons/gi";
 import { GrUserPolice } from "react-icons/gr";
 import { IoLogoDropbox } from "react-icons/io";
 import { IoPeopleSharp } from "react-icons/io5";
@@ -14,7 +14,7 @@ import {
 } from "react-icons/md";
 
 interface Props {
-  data: any;
+  data: CardDataElements;
 }
 
 export const CardService = ({ data }: Props) => {

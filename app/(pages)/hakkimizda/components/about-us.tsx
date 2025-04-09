@@ -22,11 +22,11 @@ export const AboutUs = () => {
       </div>
       <div>
         <Image
-          src="https://picsum.photos/600/500"
+          src="/about.webp"
           width={450}
           height={500}
           alt="Slider"
-          className="shadow-xl shadow-black/30"
+          className="shadow-xl shadow-black/30 rounded-xl h-[400px] object-cover"
         />
       </div>
     </section>
