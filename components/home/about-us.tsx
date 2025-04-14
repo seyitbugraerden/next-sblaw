@@ -13,15 +13,12 @@ export const AboutUs = () => {
           Deneyim, Şeffaflık ve Güvenin Buluştuğu Nokta
         </h3>
         <p className="font-thin text-justify text-sm">
-          Sümeyye Başar Hukuk & Danışmanlık olarak, bireylerin ve kurumların
-          hukuki sorunlarına etkili, şeffaf ve güvenilir çözümler sunuyoruz.
-          Müvekkillerimizin ihtiyaçlarını önceliklendiriyor, her adımda
-          bilgilendirici ve çözüm odaklı bir yaklaşım benimsiyoruz.
-        </p>{" "}
-        <br />
-        <p className="font-thin text-justify text-sm">
-          Deneyimimiz, etik değerlerimiz ve güncel hukuk bilgimizle adaletin
-          yanında duruyor; haklarınızı en iyi şekilde savunmayı ilke ediniyoruz.
+          Uludağ Üniversitesi Hukuk Fakültesinden 2014 yılında mezun olmuş,
+          ardından Çeşitli hukuk bürolarında stajyer avukatlık ve avukatlık
+          yaparak hukuki birçok alanda bilgi sahibi olmuştur. 10 yılı aşkın
+          süredir avukatlık mesleğini icra etmekte olup ağırlıklı olarak Sigorta
+          Hukuku, İş Hukuku ve Ceza ve Çocuk Ceza Hukuku alanlarında
+          çalışmaktadır.
         </p>
         <div className="mt-8">
           <Link

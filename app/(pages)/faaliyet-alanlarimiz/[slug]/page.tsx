@@ -34,8 +34,17 @@ export default async function Page({
               </ul>
             </div>
           </div>
-          <div className="flex-1 h-[200dvh] order-1 lg:order-2">
-            {data?.value}
+          <div
+            className="flex-1 h-[200dvh] order-1 lg:order-2"
+            id="content__area"
+          >
+            <div
+              aria-hidden="false"
+              className="py-6"
+              dangerouslySetInnerHTML={{
+                __html: data?.value,
+              }}
+            />
           </div>
         </section>
       </>
