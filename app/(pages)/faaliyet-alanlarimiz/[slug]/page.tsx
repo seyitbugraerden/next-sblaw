@@ -35,7 +35,7 @@ export default async function Page({
             </div>
           </div>
           <div
-            className="flex-1 h-[200dvh] order-1 lg:order-2"
+            className="flex-1 order-1 lg:order-2"
             id="content__area"
           >
             <div

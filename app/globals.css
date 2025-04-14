@@ -104,6 +104,11 @@ button {
   font-weight: bold;
   margin: 12px 0px;
   text-transform: uppercase;
+}#content__area h3{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 12px 0px;
+  text-transform: uppercase;
 }
 #content__area p{
   font-size: 12px;
@@ -112,4 +117,5 @@ button {
   list-style-type: disc;
   margin: 12px 0px;
   margin-left: 16px;
+  font-size: 12px;
 }
