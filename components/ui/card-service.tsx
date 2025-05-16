@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { AiFillInsurance } from "react-icons/ai";
 import { BsPersonWorkspace } from "react-icons/bs";
-import { FaMoneyCheckAlt, FaUser } from "react-icons/fa";
+import { FaHome, FaMoneyCheckAlt, FaUser } from "react-icons/fa";
 import { GiHandcuffed } from "react-icons/gi";
 import { GrUserPolice } from "react-icons/gr";
 import { IoLogoDropbox } from "react-icons/io";
@@ -37,7 +38,9 @@ export const CardService = ({ data }: Props) => {
           {data.title === "Ticaret Hukuku" && <IoLogoDropbox />}
           {data.title === "Tüketici Hukuku" && <FaUser />}
           {data.title === "İcra ve İflas Hukuku" && <GrUserPolice />}
-          {data.title === "Danışmanlık Hizmetleri" && <IoPeopleSharp />}
+          {data.title === "Arabuluculuk Hizmetleri" && <IoPeopleSharp />}
+          {data.title === "Kira Hukuku" && <FaHome />}
+          {data.title === "Sigorta ve Tahkim Hukuku" && <AiFillInsurance />}
         </div>
         <h3 className="text-xl font-bold mb-2 line-clamp-1" title={data.title}>
           {data.title}

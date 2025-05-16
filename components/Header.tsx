@@ -33,7 +33,7 @@ const Header = () => {
                 height={60}
               />
               <div className="flex flex-col items-start">
-                <span className="self-start text-2xl font-semibold whitespace-nowrap ">
+                <span className="self-start text-2xl font-semibold whitespace-nowrap uppercase">
                   Sümeyye Başer
                 </span>
                 <span className="self-start text-sm font-semibold whitespace-nowrap ">
