@@ -102,7 +102,7 @@ const Header = () => {
                   </svg>
                 </button>
                 {isDrop && (
-                  <div className="z-10 font-normal divide-y divide-gray-100 rounded-lg shadow-sm w-44 absolute bg-white text-black mt-4">
+                  <div className="z-10 font-normal divide-y divide-gray-100 rounded-lg shadow-sm absolute bg-white text-black mt-4">
                     <ul
                       className="py-2 text-sm"
                       aria-labelledby="dropdownLargeButton"
