@@ -13,12 +13,21 @@ export const AboutUs = () => {
           Deneyim, Şeffaflık ve Güvenin Buluştuğu Nokta
         </h3>
         <p className="font-thin text-justify text-sm">
-          Uludağ Üniversitesi Hukuk Fakültesinden 2014 yılında mezun olmuş,
-          ardından Çeşitli hukuk bürolarında stajyer avukatlık ve avukatlık
-          yaparak hukuki birçok alanda bilgi sahibi olmuştur. 10 yılı aşkın
-          süredir avukatlık mesleğini icra etmekte olup ağırlıklı olarak Sigorta
-          Hukuku, İş Hukuku ve Ceza ve Çocuk Ceza Hukuku alanlarında
-          çalışmaktadır.
+          <strong className="font-bold">Sümeyye Başer Hukuk Danışmanlık ve Arabuluculuk</strong>,
+          bireylerin ve kurumların karşılaştığı hukuki uyuşmazlıklara güvenilir,
+          hızlı ve etkili çözümler sunmak amacıyla kurulmuştur. Ankara merkezli
+          olarak faaliyet göstermekte olup, mesleki etik ilkeler doğrultusunda
+          müvekkillerine güven veren, şeffaf ve çözüm odaklı bir yaklaşım
+          benimsemektedir.
+        </p>{" "}
+        <br />
+        <p className="font-thin text-justify text-sm">
+          Temel uzmanlık alanlarımız arasında sigorta hukuku, ceza hukuku, çocuk
+          ceza hukuku, iş hukuku ve kira hukuku yer almaktadır. Her dava
+          dosyası, akademik bilgi ve saha tecrübesiyle değerlendirilerek
+          müvekkillere özel stratejik çözümler geliştirilmektedir. Hukuki
+          sürecin her aşamasında şeffaflık ve düzenli bilgilendirme temel
+          prensibimizdir.
         </p>
         <div className="mt-8">
           <Link

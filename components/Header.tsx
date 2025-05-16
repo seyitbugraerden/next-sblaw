@@ -134,7 +134,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/yazilarimiz"
                   className={`${
                     isHome ? "hover:text-primary" : "hover:brightness-75"
                   } block py-2 px-3rounded-sm md:p-0`}
