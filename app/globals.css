@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #82181A;
+  --color-primary: #82181a;
   --color-secondary: #252525;
   --color-tertiary: orange;
   --color-hover: #123456;
@@ -99,24 +99,29 @@ button {
   white-space: nowrap;
 }
 
-#content__area h2{
+#content__area h2 {
   font-size: 26px;
   font-weight: bold;
   margin: 12px 0px;
   text-transform: uppercase;
-}#content__area h3{
-  font-size: 14px;
+}
+#content__area h3 {
+  font-size: 18px;
   font-weight: bold;
   margin: 12px 0px;
   text-transform: uppercase;
 }
-#content__area p{
-  font-size: 12px;
+#content__area p {
+  font-size: 14px;
   text-align: justify;
 }
-#content__area ul{
+#content__area i {
+  font-size: 14px;
+  text-align: justify;
+}
+#content__area ul {
   list-style-type: disc;
   margin: 12px 0px;
   margin-left: 16px;
-  font-size: 12px;
+  font-size: 14px;
 }

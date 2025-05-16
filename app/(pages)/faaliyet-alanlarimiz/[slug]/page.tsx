@@ -19,12 +19,12 @@ export default async function Page({
           <div className="order-2 lg:order-1">
             <div className="sticky top-36">
               <h3 className="text-3xl font-semibold">Faaliyet Alanları</h3>
-              <ul className="mt-3">
+              <ul className="mt-6">
                 {faaliyetData.map((x, i) => (
                   <li key={i} className="my-2">
                     <Link
                       href={x.url}
-                      className="flex items-center gap-2 text-sm  hover:translate-x-3 duration-300 hover:text-primary"
+                      className="flex items-center gap-2 text-base  hover:translate-x-3 duration-300 hover:text-primary"
                     >
                       <MdArrowRightAlt />
                       {x.title}
@@ -40,7 +40,7 @@ export default async function Page({
           >
             <div
               aria-hidden="false"
-              className="py-6"
+              className="pb-6"
               dangerouslySetInnerHTML={{
                 __html: data?.value,
               }}
