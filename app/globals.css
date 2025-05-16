@@ -112,6 +112,7 @@ button {
 }
 #content__area p{
   font-size: 12px;
+  text-align: justify;
 }
 #content__area ul{
   list-style-type: disc;
