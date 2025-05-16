@@ -18,6 +18,15 @@ export const faaliyetData = [
     img: "/ceza.webp",
   },
   {
+    title: "Çocuk Ceza Hukuku",
+    description:
+      "Suç isnatlarına karşı savunmanızı oluşturur, adil yargılanma hakkınızı titizlikle savunuruz.",
+    url: "/faaliyet-alanlarimiz/cocuk-ceza-hukuku",
+    value:
+      "<h2>Çocuk Ceza Hukuku</h2><p><br>Çocuklar, hem toplumun hem de hukukun koruması altındadır. Suça sürüklenen ya da mağdur konumundaki çocuklar için ceza hukuku, özel bir yaklaşım ve ayrı bir uzmanlık gerektirir.</p><p>Biz, Sümeyye Başer Hukuk Danışmanlık ve Arabuluculuk olarak; çocukların yüksek yararını esas alan, onarıcı ve koruyucu adalet anlayışıyla hareket ediyoruz.</p><br><p>Çocuk Ceza Hukuku alanındaki hizmetlerimiz kapsamında:</p><ul><li>Suça sürüklenen çocuklara yönelik savunma ve danışmanlık,</li><li>Çocuk mağdurların korunması ve etkin temsil edilmesi,</li><li>Çocuklara özgü soruşturma ve kovuşturma süreçlerinin takibi,</li><li>Ailelere sürece dair bilinçli ve doğru yönlendirme sağlanması</li></ul><p>gibi birçok konuda hassasiyetle çalışıyoruz.</p><br><p>Çocukların adaletle ilk karşılaşmalarının hayatlarını belirleyecek kadar etkili olduğunu biliyor; bu sürecin hem adil hem de insani şekilde yönetilmesi için yanınızda yer alıyoruz.</p><br><h3>Unutmayın, çocuklar bir dava dosyası değil.</h3>",
+    img: "/cocuk-ceza.webp",
+  },
+  {
     title: "İş Hukuku",
     description:
       "İşçi-işveren ilişkilerinde doğan uyuşmazlıklarda danışmanlık ve dava süreçlerinde yanınızdayız.",
@@ -28,12 +37,12 @@ export const faaliyetData = [
   },
   {
     img: "/gayrimenkul.webp",
-    title: "Gayrimenkul Hukuku",
+    title: "Taşınmaz Hukuku",
     description:
       "Tapu işlemleri, kira sözleşmeleri ve taşınmaz davalarında hukuki destek sağlıyoruz.",
-    url: "/faaliyet-alanlarimiz/gayrimenkul-hukuku",
+    url: "/faaliyet-alanlarimiz/tasinmaz-hukuku",
     value:
-      "<h2>Gayrimenkul Hukuku</h2><p><br>Sümeyye Başer Hukuk Bürosu, geniş bir alan ve teknik bilgiyle birlikte uzmanlık gerektiren gayrimenkul hukukuyla ilgili her türlü konuda; kişilerin taşınmazlarla ilgili tasarruf işlemlerinde meydana gelen uyuşmazlıkların takibinde, taşınmaz mülkiyeti ve bu mülkiyetten doğan uyuşmazlıkların dava yoluyla çözüme kavuşturulması konularında hizmet sağlamaktadır.<p/> <br> <p>Gayrimenkul davalarının yanı sıra gayrimenkul hukuku kapsamında sözleşmelerin hazırlanması, imar mevzuatına ilişkin bilgilendirme, tapu işlemlerinin takibi ve hak devirleri gibi gayrimenkul işlerinde hukuki danışmanlık yapmaktadır. Bu kapsamda vermiş olduğumuz hizmetlerin bazıları aşağıdaki belirtilmiştir.</p><ul><li>Tapu iptal ve tescil davalarının açılması ve takibi</li><li>Tapu kayıtlarının düzeltilmesi davalarının açılması ve takibi</li><li>Taşınmazdan doğan tazminat davalarının açılması ve takibi.</li><li>Ecrimisil davalarının açılması ve takibi.</li><li>Müdahalenin men’i davalarının açılması ve takibi.</li><li>İrtifak haklarının kurulmasına ilişkin davaların açılması ve takibi.</li><li>İstihkak davaları davalarının açılması ve takibi.</li><li>Ortaklığın giderilmesi (izalei şüyu) davalarının açılması ve takibi.</li><li>Taşınmaz rehni (İpotek) davalarının açılması ve takibi.</li><li>Kamulaştırma ve kamulaştırmasız el atma davalarının açılması ve takibi.</li><li>Kira bedeli tespit davalarının açılması ve takibi.</li><li>Tahliye davalarının açılması ve takibi.</li><li>İpotek ihtilaflarından doğan davaların takibi.</li><li>Alım, geri alım ve ön alım (şufa) davalarının açılması ve takibi.</li><li>Kat mülkiyeti kanunundan kaynaklanan uyuşmazlıklara ilişkin hukuki danışmanlık.</li><li>Kat karşılığı inşaat sözleşmesi, gayrimenkul satış vaadi sözleşmesi hazırlanması.</li><li>Müteahhitlik, tedarik, taşeronluk ve benzeri inşaat hizmetlerine ilişkin sözleşmeler.</li></ul>",
+      "<h2>Taşınmaz Hukuku</h2><p><br>Sümeyye Başer Hukuk Bürosu, geniş bir alan ve teknik bilgiyle birlikte uzmanlık gerektiren gayrimenkul hukukuyla ilgili her türlü konuda; kişilerin taşınmazlarla ilgili tasarruf işlemlerinde meydana gelen uyuşmazlıkların takibinde, taşınmaz mülkiyeti ve bu mülkiyetten doğan uyuşmazlıkların dava yoluyla çözüme kavuşturulması konularında hizmet sağlamaktadır.<p/> <br> <p>Gayrimenkul davalarının yanı sıra gayrimenkul hukuku kapsamında sözleşmelerin hazırlanması, imar mevzuatına ilişkin bilgilendirme, tapu işlemlerinin takibi ve hak devirleri gibi gayrimenkul işlerinde hukuki danışmanlık yapmaktadır. Bu kapsamda vermiş olduğumuz hizmetlerin bazıları aşağıdaki belirtilmiştir.</p><ul><li>Tapu iptal ve tescil davalarının açılması ve takibi</li><li>Tapu kayıtlarının düzeltilmesi davalarının açılması ve takibi</li><li>Taşınmazdan doğan tazminat davalarının açılması ve takibi.</li><li>Ecrimisil davalarının açılması ve takibi.</li><li>Müdahalenin men’i davalarının açılması ve takibi.</li><li>İrtifak haklarının kurulmasına ilişkin davaların açılması ve takibi.</li><li>İstihkak davaları davalarının açılması ve takibi.</li><li>Ortaklığın giderilmesi (izalei şüyu) davalarının açılması ve takibi.</li><li>Taşınmaz rehni (İpotek) davalarının açılması ve takibi.</li><li>Kamulaştırma ve kamulaştırmasız el atma davalarının açılması ve takibi.</li><li>Kira bedeli tespit davalarının açılması ve takibi.</li><li>Tahliye davalarının açılması ve takibi.</li><li>İpotek ihtilaflarından doğan davaların takibi.</li><li>Alım, geri alım ve ön alım (şufa) davalarının açılması ve takibi.</li><li>Kat mülkiyeti kanunundan kaynaklanan uyuşmazlıklara ilişkin hukuki danışmanlık.</li><li>Kat karşılığı inşaat sözleşmesi, gayrimenkul satış vaadi sözleşmesi hazırlanması.</li><li>Müteahhitlik, tedarik, taşeronluk ve benzeri inşaat hizmetlerine ilişkin sözleşmeler.</li></ul>",
   },
   {
     img: "/miras.webp",
