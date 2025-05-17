@@ -5,9 +5,9 @@ export const AboutUs = () => {
   return (
     <section className="max-contain">
       <div className="relative">
-        <div className="float-right w-[300px] lg:w-[400px] ml-12 mb-4">
+        <div className="lg:float-right w-full lg:w-[400px] lg:ml-12 mb-4">
           <Image
-            src="/about.webp"
+            src="/sumeyye_baser.webp"
             width={400}
             height={500}
             alt="Sümeyye Başer"

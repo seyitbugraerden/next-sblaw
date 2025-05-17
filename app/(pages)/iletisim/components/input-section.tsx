@@ -19,10 +19,10 @@ export const InputSection = () => {
             <p className="text-xs mt-1">
               <Link
                 target="_blank"
-                href="https://maps.app.goo.gl/WrJnB43UC2vHbNJE9"
+                href="https://maps.app.goo.gl/XCF1g6QwELgfiNdGA"
                 className="hover:text-primary duration-300"
               >
-                Mustafa Kemal, 2144/1. Sk. 6, 06510 Çankaya/Ankara
+                Mustafa Kemal Mahallesi 2147.Sokak Turkuaz İş Merkezi No:8/8 Çankaya /Ankara
               </Link>
             </p>
           </div>

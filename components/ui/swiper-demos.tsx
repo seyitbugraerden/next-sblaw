@@ -18,9 +18,11 @@ export const SwiperDemos = () => {
     >
       {swiperData.map((_, index) => (
         <SwiperSlide key={index} className="relative">
-          <div className="absolute right-8 bottom-6 z-10 text-white text-2xl font-bold">
-            {index + 1}/{swiperData.length}
-          </div>
+          {swiperData.length > 1 && (
+            <div className="absolute right-8 bottom-6 z-10 text-white text-2xl font-bold">
+              {index + 1}/{swiperData.length}
+            </div>
+          )}
           <div className="absolute top-0 right-0 z-10 text-white text-2xl font-bold h-full w-1/2 bg-black/30 rounded-bl-[50%] right hidden lg:block"></div>
           <div className="absolute z-10 w-full top-1/2 -translate-y-1/2">
             <div className="max-contain flex flex-col lg:flex-row items-center justify-between">
@@ -37,7 +39,7 @@ export const SwiperDemos = () => {
               </div>
               <div className="right flex-1">
                 <Image
-                  src="/1.webp"
+                  src="/2.webp"
                   width={500}
                   height={800}
                   alt="Slider"
@@ -48,7 +50,7 @@ export const SwiperDemos = () => {
           </div>
           <Image
             className="brightness-50 w-full h-full object-cover "
-            src="https://picsum.photos/1920/800"
+            src="/hero.webp"
             width={1920}
             height={900}
             alt="Slider"

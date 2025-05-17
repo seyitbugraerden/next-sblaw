@@ -34,10 +34,7 @@ export default async function Page({
               </ul>
             </div>
           </div>
-          <div
-            className="flex-1 order-1 lg:order-2"
-            id="content__area"
-          >
+          <div className="flex-1 order-1 lg:order-2" id="content__area">
             <div
               aria-hidden="false"
               className="pb-6"
@@ -45,6 +42,14 @@ export default async function Page({
                 __html: data?.value,
               }}
             />
+            <Link
+              href="/iletisim"
+              className={`inline-flex py-2 px-3 rounded-sm md:border-0 hover:brightness-75
+                bg-primary text-white "
+              `}
+            >
+              İletişim
+            </Link>
           </div>
         </section>
       </>

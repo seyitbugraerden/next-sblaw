@@ -98,14 +98,15 @@ export const Footer = () => {
             <ul className="flex flex-col items-start gap-3">
               <li>
                 <Link
-                  href="https://maps.app.goo.gl/WrJnB43UC2vHbNJE9"
+                  href="https://maps.app.goo.gl/XCF1g6QwELgfiNdGA"
                   target="_blank"
                   className="inline-flex flex-row gap-2 items-center text-xs group hover:text-primary"
                 >
                   <MdOutlineArrowRightAlt className="group-hover:translate-x-3 duration-200" />
                   <span className="group-hover:translate-x-3 duration-300">
                     <strong className="text-primary">Adres : </strong> Mustafa
-                    Kemal, 2144/1. Sk. 6, 06510 Çankaya/Ankara
+                    Kemal Mahallesi 2147.Sokak Turkuaz İş Merkezi No:8/8 Çankaya
+                    /Ankara
                   </span>
                 </Link>
               </li>
