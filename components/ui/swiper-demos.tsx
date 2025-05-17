@@ -29,22 +29,6 @@ export const SwiperDemos = () => {
               <div className="flex-1 text-4xl lg:text-[60px] text-center font-semibold lg:text-start  text-white relative left -top-6 flex flex-row items-center gap-4">
                 <div className="w-[3px] h-[250px] bg-white "></div>
                 {_.title}
-                <Image
-                  src="/square.png"
-                  alt="bg-icon"
-                  width={280}
-                  height={280}
-                  className="absolute -left-12 -top-18 hidden"
-                />
-              </div>
-              <div className="right flex-1">
-                <Image
-                  src="/2.webp"
-                  width={500}
-                  height={800}
-                  alt="Slider"
-                  className="h-[500px] object-contain lg:h-fit"
-                />
               </div>
             </div>
           </div>

@@ -13,12 +13,14 @@ export const AboutUs = () => {
           Deneyim, Şeffaflık ve Güvenin Buluştuğu Nokta
         </h3>
         <p className="font-thin text-justify text-sm">
-          <strong className="font-bold">Sümeyye Başer Hukuk Danışmanlık ve Arabuluculuk</strong>,
-          bireylerin ve kurumların karşılaştığı hukuki uyuşmazlıklara güvenilir,
-          hızlı ve etkili çözümler sunmak amacıyla kurulmuştur. Ankara merkezli
-          olarak faaliyet göstermekte olup, mesleki etik ilkeler doğrultusunda
-          müvekkillerine güven veren, şeffaf ve çözüm odaklı bir yaklaşım
-          benimsemektedir.
+          <strong className="font-bold">
+            Sümeyye Başer Hukuk Danışmanlık ve Arabuluculuk
+          </strong>
+          , bireylerin ve kurumların karşılaştığı hukuki uyuşmazlıklara
+          güvenilir, hızlı ve etkili çözümler sunmak amacıyla kurulmuştur.
+          Ankara merkezli olarak faaliyet göstermekte olup, mesleki etik ilkeler
+          doğrultusunda müvekkillerine güven veren, şeffaf ve çözüm odaklı bir
+          yaklaşım benimsemektedir.
         </p>{" "}
         <br />
         <p className="font-thin text-justify text-sm">
@@ -43,11 +45,11 @@ export const AboutUs = () => {
       </div>
       <div>
         <Image
-          src="/about.webp"
-          width={450}
+          src="/sumeyye_baser.webp"
+          width={250}
           height={500}
-          alt="Slider"
-          className="shadow-xl shadow-black/30 rounded-xl h-[400px] object-cover"
+          alt="Sümeyye Başer"
+          className="rounded-xl shadow-xl object-cover w-full h-auto"
         />
       </div>
     </section>

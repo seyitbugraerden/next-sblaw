@@ -1,16 +1,17 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaPhoneAlt } from "react-icons/fa";
 
 const WhatsappButton = () => {
   return (
     <Link
-      href="#"
+      href="http://wa.me/+905531408302"
       target="_blank"
       aria-label="Whatsapp İletişim"
-      className="fixed right-6 bottom-6 bg-red-900 rounded-xl p-3 z-[9999999] text-white hover:!text-white shadow-md shadow-black/30 hover:brightness-90 transition duration-200"
+      className="fixed right-6 bottom-6 z-[9999999]  hover:brightness-90 transition duration-200"
     >
-      <FaPhoneAlt  size={24} />
+      {/* <FaPhoneAlt  size={24} /> */}
+      <Image src="/wp.webp" alt="Whatsapp Icon" width={60} height={60} />
     </Link>
   );
 };
