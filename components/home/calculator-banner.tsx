@@ -18,7 +18,7 @@ export const CalculatorBanner = () => {
           <ImageText text="Hesaplama Araçları" />
         </div>
         <div className="max-w-4xl mx-auto">
-          <p className="text-sm font-light text-center mt-3">
+          <p className="text-md font-medium text-center mt-3">
             Müvekkillerimizin ihtiyaç duyduğu hukuki süreçleri daha şeffaf ve
             anlaşılır kılmak için geliştirdiğimiz hesaplama araçlarıyla,
             tazminat, faiz, kıdem-ihbar ve benzeri hesaplamaları kolayca

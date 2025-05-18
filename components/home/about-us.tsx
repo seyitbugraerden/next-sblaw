@@ -12,7 +12,7 @@ export const AboutUs = () => {
         <h3 className="text-2xl font-bold mb-6">
           Deneyim, Şeffaflık ve Güvenin Buluştuğu Nokta
         </h3>
-        <p className="font-thin text-justify text-sm">
+        <p className="font-thin text-justify text-md">
           <strong className="font-bold">
             Sümeyye Başer Hukuk Danışmanlık ve Arabuluculuk
           </strong>
@@ -23,7 +23,7 @@ export const AboutUs = () => {
           yaklaşım benimsemektedir.
         </p>{" "}
         <br />
-        <p className="font-thin text-justify text-sm">
+        <p className="font-thin text-justify text-md">
           Temel uzmanlık alanlarımız arasında sigorta hukuku, ceza hukuku, çocuk
           ceza hukuku, iş hukuku ve kira hukuku yer almaktadır. Her dava
           dosyası, akademik bilgi ve saha tecrübesiyle değerlendirilerek
@@ -46,7 +46,7 @@ export const AboutUs = () => {
       <div>
         <Image
           src="/sumeyye_baser.webp"
-          width={250}
+          width={350}
           height={500}
           alt="Sümeyye Başer"
           className="rounded-xl shadow-xl object-cover w-full h-auto"

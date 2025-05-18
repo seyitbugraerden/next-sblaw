@@ -32,9 +32,14 @@ export const Footer = () => {
                 </span>
               </div>
             </Link>
-            <p className="text-justify text-xs text-black/60 mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Excepturi, reprehenderit.
+            <p className="text-justify text-sm text-black/60 mt-4">
+              <strong className="font-bold">
+                {" "}
+                Sümeyye Başer Hukuk Danışmanlık ve Arabuluculuk
+              </strong>
+              , Ankara merkezli çözüm odaklı ve güvenilir hizmet sunan bir hukuk
+              bürosudur. Uzmanlık alanları arasında sigorta, ceza, iş ve kira
+              hukuku yer almaktadır.
             </p>
           </div>
           <div className="lg:flex-[2] flex flex-col lg:flex-row justify-between w-full gap-8">
@@ -170,7 +175,9 @@ export const Footer = () => {
             </Link>
           </div>
           <div className="flex-1 flex justify-end">
-            <Link href="#">Gizlilik Politikası</Link>
+            <Link target="_blank" href="https://www.milleniumyazilim.com.tr/">
+              Millenium Yazılım
+            </Link>
           </div>
         </div>
       </div>

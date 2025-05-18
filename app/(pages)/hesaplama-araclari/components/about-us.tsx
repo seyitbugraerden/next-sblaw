@@ -8,25 +8,28 @@ export const AboutUs = () => {
         <h3 className="text-2xl font-bold mb-6">
           Sümeyye Başer Hukuk Danışmanlık & Arabuluculuk
         </h3>
-        <p className="font-thin text-justify text-sm">
-          Sümeyye Başar Hukuk & Danışmanlık olarak, bireylerin ve kurumların
-          hukuki sorunlarına etkili, şeffaf ve güvenilir çözümler sunuyoruz.
-          Müvekkillerimizin ihtiyaçlarını önceliklendiriyor, her adımda
-          bilgilendirici ve çözüm odaklı bir yaklaşım benimsiyoruz.
+        <p className="font-thin text-justify text-md">
+          <strong className="font-bold">
+            Sümeyye Başar Hukuk & Danışmanlık
+          </strong>{" "}
+          olarak, bireylerin ve kurumların hukuki sorunlarına etkili, şeffaf ve
+          güvenilir çözümler sunuyoruz. Müvekkillerimizin ihtiyaçlarını
+          önceliklendiriyor, her adımda bilgilendirici ve çözüm odaklı bir
+          yaklaşım benimsiyoruz.
         </p>{" "}
         <br />
-        <p className="font-thin text-justify text-sm">
+        <p className="font-thin text-justify text-md">
           Deneyimimiz, etik değerlerimiz ve güncel hukuk bilgimizle adaletin
           yanında duruyor; haklarınızı en iyi şekilde savunmayı ilke ediniyoruz.
         </p>
       </div>
       <div>
         <Image
-          src="/calculate.webp"
-          width={450}
+          src="/sumeyye_baser.webp"
+          width={400}
           height={500}
           alt="Slider"
-          className="shadow-xl shadow-black/30 rounded-xl h-[400px] object-cover brightness-75"
+          className="rounded-xl shadow-xl object-cover w-full h-auto lg:w-[400px]"
         />
       </div>
     </section>

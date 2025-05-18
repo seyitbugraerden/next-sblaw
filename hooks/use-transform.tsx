@@ -6,3 +6,4 @@ export const transformData = async (slug: string) => {
   }
   return slug;
 };
+

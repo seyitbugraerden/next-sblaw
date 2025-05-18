@@ -23,12 +23,12 @@ export const SwiperDemos = () => {
               {index + 1}/{swiperData.length}
             </div>
           )}
-          <div className="absolute top-0 right-0 z-10 text-white text-2xl font-bold h-full w-1/2 bg-black/30 rounded-bl-[50%] right hidden lg:block"></div>
+          <div className="absolute top-0 right-0 z-10 text-white text-2xl font-bold h-full w-1/2 bg-black/30 rounded-bl-[50%] right hidden"></div>
           <div className="absolute z-10 w-full top-1/2 -translate-y-1/2">
             <div className="max-contain flex flex-col lg:flex-row items-center justify-between">
-              <div className="flex-1 text-4xl lg:text-[60px] text-center font-semibold lg:text-start  text-white relative left -top-6 flex flex-row items-center gap-4">
+              <div className="flex-1 text-4xl lg:text-[60px] text-center font-semibold lg:text-start  text-white relative left -top-6 flex flex-row items-center gap-4 ">
                 <div className="w-[3px] h-[250px] bg-white "></div>
-                {_.title}
+                <span className="lg:max-w-1/2">{_.title}</span>
               </div>
             </div>
           </div>

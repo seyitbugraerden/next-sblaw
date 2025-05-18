@@ -20,7 +20,7 @@ export const AboutUs = () => {
             Sümeyye Başer Hukuk Danışmanlık & Arabuluculuk
           </h3>
 
-          <p className="text-sm text-justify mb-4">
+          <p className="text-md text-justify mb-4">
             <strong>Sümeyye Başer Hukuk Danışmanlık ve Arabuluculuk</strong>,
             bireylerin ve kurumların karşılaştığı hukuki uyuşmazlıklara
             güvenilir, hızlı ve etkili çözümler sunmak amacıyla kurulmuştur.
@@ -29,7 +29,7 @@ export const AboutUs = () => {
             odaklı bir yaklaşım benimsemektedir.
           </p>
 
-          <p className="text-sm text-justify mb-4">
+          <p className="text-md text-justify mb-4">
             Temel uzmanlık alanlarımız arasında sigorta hukuku, ceza hukuku,
             çocuk ceza hukuku, iş hukuku ve kira hukuku yer almaktadır. Her dava
             dosyası, akademik bilgi ve saha tecrübesiyle değerlendirilerek
@@ -42,14 +42,14 @@ export const AboutUs = () => {
             Arabuluculuk Hizmetlerimiz
           </h4>
 
-          <p className="text-sm text-justify mb-4">
+          <p className="text-md text-justify mb-4">
             Alternatif uyuşmazlık çözüm yollarından biri olan arabuluculuk,
             taraflar arasında dostane çözümler geliştirilmesini sağlayarak zaman
             ve maliyet açısından önemli avantajlar sunar. Aşağıdaki alanlarda
             aktif olarak arabuluculuk hizmeti sunmaktayız:
           </p>
 
-          <ul className="list-disc pl-6 mb-4 text-sm">
+          <ul className="list-disc pl-6 mb-4 text-md">
             <li>İş Hukuku</li>
             <li>Ticari Uyuşmazlıklar</li>
             <li>Sigorta Hukuku</li>
@@ -80,7 +80,7 @@ export const AboutUs = () => {
             ))}
           </div>
 
-          <p className="text-sm text-justify">
+          <p className="text-md text-justify">
             Sümeyye Başer Hukuk Danışmanlık ve Arabuluculuk, Ankara’daki
             merkezinden ve çevrim içi platformlar aracılığıyla Türkiye genelinde
             bireysel ve kurumsal müvekkillerine hukuki danışmanlık, dava takibi

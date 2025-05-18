@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import { BlogCardService } from "./blog-card-service";
+import { yazilarimiz } from "@/data/yazilarimiz";
 
 export const BlogSwiperDemos = () => {
   return (
@@ -25,9 +26,9 @@ export const BlogSwiperDemos = () => {
       }}
       className="mySwiper my-12"
     >
-      {Array.from({ length: 12 }).map((_, index) => (
+      {yazilarimiz.map((_, index) => (
         <SwiperSlide key={index}>
-          <BlogCardService />
+          <BlogCardService data={_} />
         </SwiperSlide>
       ))}
     </Swiper>
