@@ -24,7 +24,7 @@ export const Banner = ({ text }: BannerProps) => {
       <div className="bg-white absolute left-1/2 bottom-0 clip"></div>
       <div className="bg-white absolute left-0 bottom-0 clip_sec"></div>
       <div className="max-contain h-full flex flex-col justify-center items-start pb-24">
-        <h1 className="text-[40px] text-white mt-12 font-bold ">
+        <h1 className="text-[40px] text-white mt-24 font-bold ">
           {text}
           <div className="w-full bg-white h-[1px] mt-6"></div>
         </h1>
