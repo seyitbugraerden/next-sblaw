@@ -20,7 +20,7 @@ export const Banner = ({ text }: BannerProps) => {
   );
 
   return (
-    <div className="w-dvw lg:h-[200px] bg-primary relative overflow-hidden">
+    <div className="w-dvw lg:h-[200px] bg-primary relative">
       <div className="bg-white absolute left-1/2 bottom-0 clip"></div>
       <div className="bg-white absolute left-0 bottom-0 clip_sec"></div>
       <div className="max-contain h-full flex flex-col justify-center items-start pb-24">
@@ -29,7 +29,7 @@ export const Banner = ({ text }: BannerProps) => {
           <div className="w-full bg-white h-[1px] mt-6"></div>
         </h1>
 
-        <div className="hidden lg:flex w-full justify-end items-center gap-2 mt-auto text-black text-xs font-semibold mb-2 z-10">
+        <div className="hidden lg:flex w-full justify-end items-center gap-2 mt-auto text-black text-xs font-semibold mb-2 z-10 relative top-16">
           <Link
             href="/"
             className="flex flex-row items-center gap-2 hover:text-primary duration-300"
@@ -55,7 +55,8 @@ export const Banner = ({ text }: BannerProps) => {
               : splitElement[1]
                   .replace("hakkimizda", "Hakkımızda")
                   .replace("hesaplama-araclari", "Hesaplama Araçları")
-                  .replace("iletisim", "İletişim")}{" "}
+                  .replace("iletisim", "İletişim")
+                  .replace("yazilarimiz", "Yazılarımız")}{" "}
           </p>
         </div>
       </div>
