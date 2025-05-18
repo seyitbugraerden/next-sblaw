@@ -10,7 +10,7 @@ export const yazilarimiz = [
     value: `<h2>Kira Hukukunda Güncel Gelişmeler</h2><br>
 <p>Son yıllarda yaşanan ekonomik dalgalanmalar, kira hukukunu hem kiracılar hem de ev sahipleri açısından gündemin ön sıralarına taşıdı. Özellikle konut kiralarında yaşanan artışlar, taraflar arasında sıkça uyuşmazlıkların doğmasına neden olmakta.</p> <br>
 
-<p>2024 yılı itibarıyla yürürlüğe giren düzenlemeler kapsamında, konut kira artış oranları <strong>bir önceki yılın TÜFE ortalamasına</strong> göre belirlenecek. Ancak söz konusu oran %25’i aşamayacak. Bu sınır, kiracıların korunması amacıyla geçici olarak uygulanmaktadır.</p>
+<p>2025 yılı itibarıyla uygulamada, konut kira artış oranları bir önceki yılın TÜFE (Tüketici Fiyat Endeksi) 12 aylık ortalamasına göre belirlenmektedir. 1 Temmuz 2024’te sona eren %25’lik geçici üst sınır uygulaması artık devam etmemektedir. Bu düzenleme, her ne kadar geçici tavan kalkmış olsa da, kiracıların korunması için enflasyon verilerinin baz alınmasını öngörmektedir.</p>
 <br>
 <h3>Kiracının Hakları</h3>
 <ul>
