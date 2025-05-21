@@ -10,7 +10,7 @@ export const AboutUs = () => {
         </h3>
         <p className="font-thin text-justify text-md">
           <strong className="font-bold">
-            Sümeyye Başar Hukuk & Danışmanlık
+            Sümeyye Başer Hukuk & Danışmanlık
           </strong>{" "}
           olarak, bireylerin ve kurumların hukuki sorunlarına etkili, şeffaf ve
           güvenilir çözümler sunuyoruz. Müvekkillerimizin ihtiyaçlarını

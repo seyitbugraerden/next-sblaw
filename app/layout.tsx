@@ -12,9 +12,9 @@ const open = Open_Sans({
   variable: "--font-open",
 });
 export const metadata: Metadata = {
-  title: "Sümeyye Başar | Avukatlık & Arabuluculuk Hizmetleri | Ankara",
+  title: "Sümeyye Başer | Avukatlık & Arabuluculuk Hizmetleri | Ankara",
   description:
-    "Sümeyye Başar Hukuk Danışmanlık ve Arabuluculuk, Ankara'da uzman avukatlık ve arabuluculuk hizmetleri sunar. Güvenilir, çözüm odaklı ve etik ilkelere bağlı hukuki destek için bizimle iletişime geçin.",
+    "Sümeyye Başer Hukuk Danışmanlık ve Arabuluculuk, Ankara'da uzman avukatlık ve arabuluculuk hizmetleri sunar. Güvenilir, çözüm odaklı ve etik ilkelere bağlı hukuki destek için bizimle iletişime geçin.",
 };
 
 export default function RootLayout({
